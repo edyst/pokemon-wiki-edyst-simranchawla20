@@ -1,0 +1,84 @@
+body{
+   font-size: 16px;
+   font-family: Avenir-Next,Roboto,sans-serif;
+   color:  #424242;
+   padding: 0px;
+   margin: 0px;
+}
+/* nav Styling */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+    background-color: white;
+    position:fixed;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:  #424242;
+}
+.india{
+    height:10px;
+    
+}
+.logo{
+    height: 20px;;
+}
+.applyBtn{
+    background-color: #de6834;
+    color: white;
+    border:none;
+    outline:none;
+    padding:3px 28px;
+}
+nav>div{
+    margin-right: 42px;
+}
+/* Section 1 */
+.section1{
+    height:100vh;
+    background:linear-gradient(0deg,#000000b3,#000000b3), url(./images/BackgroundSection.jpeg);
+    margin: 0px;
+    padding:3em 6em;
+    color:white;
+}
+.section1>h1{
+    font-size: 90px;
+    width: 80%;
+    margin-bottom: 0px;
+
+}
+.section1>h3{
+    font-size:33px;
+    margin-top: 23px;
+}
+.section1>button{
+    display: block;
+    padding: 13px 20px;
+    width: 15%;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+ button:nth-child(3){
+    background-color: #4992ca;
+    border:none;
+}
+ button:nth-child(4){
+    background-color: transparent;
+    border: 2px solid white;
+}
+.section1>p{
+    background-color: white;
+    border-radius:15px;
+    color:#424242;
+    padding: 10px 10px;
+    width:fit-content;
+}
+
