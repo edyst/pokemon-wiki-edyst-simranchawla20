@@ -49,9 +49,12 @@ nav ul li{
 nav>div{
     margin-right: 42px;
 }
+nav .fa-bars{
+    display: none;
+}
 /* Section 1 */
 .section1{
-    height:100vh;
+    /* height:100vh; */
     background:linear-gradient(0deg,#000000b3,#000000b3), url(./images/BackgroundSection.jpeg);
     margin: 0px;
     padding:3em 6em;
@@ -93,7 +96,7 @@ nav>div{
 }
 /* Section 2 */
 .section2{
-    height: 100vh;
+    /* height: 100vh; */
     background-color:  #4992ca;
     margin-top: 0px;
     color: white;
@@ -615,4 +618,253 @@ margin: 20px 0px 20px;
 .Footer a{
     text-decoration: none;
     color:white;
+}
+/* media Query */
+
+@media screen and (max-width:1025px) {
+    .section6 .flexboxx{
+        padding: 0px 3em;
+    }
+    .section6 .flexboxx>div:nth-child(2){
+        margin-left: 20px;
+    }
+    .section10>.flex10{
+        width: 60%;
+    }
+    .section12{
+        padding: 20px 7em 10px;
+    }
+    .section12>div{
+        width: 100%;
+        margin: 0px;
+    }
+    .section14{
+        padding: 25px 25px 60px;
+    }
+    .section14 .flexboxe{
+        width: 100%;
+    }
+}
+@media screen and (max-width:769px) {
+    nav .fa-bars{
+        display: inline;
+    }
+    nav ul,.applyBtn{
+        display: none;
+    }
+    .section1>h1{
+        font-size: 48px;
+    }
+    .section1>h3{
+        font-size: 18px;
+    }
+    .section1>button{
+        width: 31%;
+    }
+    .section1>p{
+        font-size: 10px;
+    }
+    .section2,.section3{
+        padding: 12px 3em 16px;
+    }
+    .section3 h4{
+        font-size: 25px;
+    }
+    .section3 p{
+        font-size: 12px;
+    }
+    .section4,.section9{
+        padding: 5px 3em;
+    }
+    .section4 p,.section4 h6 ,.section9 p,.section9 h6{
+        font-size: 14px;
+    }
+    .section4 h4{
+        font-size: 24px;
+    }
+    .section4 img[src="./assets/images/gridImg2.png"],.section9 img[src="./assets/images/gridImg2.png"]{
+        height: 40px;
+    }
+    .section4 img,.section9 img{
+        height: 135px;
+    }
+    .section5{
+        padding: 12px 3em;
+    }
+    .section6{
+        padding: 10px 3em;
+    }
+    .section .bold{
+        font-size: 15px;
+    }
+    .section6 .grey{
+        font-size: 13px;
+    }
+    .section6 .flexboxx>div:nth-child(2)>p{
+        font-size: 15px;
+    }
+    .section6>button{
+        padding: .75rem 4rem;
+    }
+    .section6>p:nth-last-child(2){
+        font-size: 17px;
+    }
+    .section7 h2{
+        font-size: 35px;
+    }
+    .section7 button{
+        width: 16em;
+    height: 3.5em;
+    }
+    .section9 h4{
+        font-size: 20px;
+    }
+    .section10>.flex10{
+        width: 80%;
+    }
+    .section11 h3{
+        font-size: 29px;
+    }
+    .section11 #email{
+        width: 19em;
+    }
+    .section11 button{
+        width: 13em;
+    }
+    .section12{
+        padding: 20px 2em 10px;
+    }
+    .section12 img{
+        height: 155px;
+    }
+    .section12>button{
+        padding: .75rem 2.5rem;
+    }
+    .section13>div{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section13>div>div>p:nth-last-child(1){
+        text-align: center;
+    }
+    .section13>div>div:nth-child(3){
+        margin-top: 20px;
+    }
+    .section14 img{
+        width: 120px;
+    height: 39px;
+    }
+    .section15 h3{
+        font-size: 30px;
+    }
+    .section15 button{
+        width: 12em;
+    }
+    .Footer>ul>li, .Footer>div>*{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:426px) {
+    .section1{
+        padding: 3em 30px;
+    }
+    .section1>h1 {
+        font-size: 40px;
+    }
+    .section1>button {
+        width: 43%;
+    }
+    .section2, .section3 {
+        padding: 12px 30px 16px;
+    }
+    .section2 >h2 {
+        font-size: 26px;
+    }
+    .scetion2 p{
+        font-size: 13px;
+    }
+    .section2>.flexBox{
+        flex-direction: column;
+    }
+    .section2>.flexBox>p{
+        font-size: 15px;
+    }
+    .section2>.flexBox h2{
+        margin-top: 10px;
+    }
+    .section3 h2{
+        font-size: 30px;
+    }
+    .section3 h4 {
+        font-size: 20px;
+    }
+    .flexbox>div{
+        margin-bottom: 20px;
+    }
+    .section4 h3 {
+        font-size: 30px;
+    }
+    .section4 .grid-container,.section9 .grid-container{
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 23px;
+    }
+    .section4 .gridiv,.section9 .gridiv{
+        grid-column: 1/3;
+    }
+    .section5 {
+        padding: 12px 1em;
+    }
+    .section6 .flexboxx {
+        flex-direction: column;
+        padding: 0px 0em;
+    }
+    .section6 .flexboxx>div:nth-child(2) {
+        margin-left: 0px;
+    }
+    .section6 .flexboxx{
+        text-align: center;
+    }
+    .section7 h2 {
+        font-size: 25px;
+    }
+    .section7 button {
+        width: 12em;
+        height: 3em;
+    }
+    .section10>.flex10{
+        grid-template-columns: auto;
+    }
+    .section11{
+        padding: 26px;
+    }
+    .section11 button{
+        margin-top: 10px;
+    }
+    .section12>div>div{
+        flex: auto;
+    }
+    .section12>div{
+        flex-wrap: wrap;
+    }
+    .section13>div>div{
+        margin: 10px 20px;
+    }
+    .section13{
+        padding: 20px 1em;
+    }
+    .section14 .flexboxe>div{
+        flex: 50%;
+    }
+    .Footer{
+        flex-wrap: wrap;
+    }
+    .Footer>ul{
+        padding-left: 0px;
+    }
+    .Footer>*{
+        flex:50%;
+    }
+    .Footer .socialIcons{
+        justify-content: space-evenly;
+    }
 }
